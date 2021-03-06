@@ -73,10 +73,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am a modular group management bot.
+┗┓Hai Pantek {}, Nama Gua {}┏┛.
+Gua Hadir Untuk Melenyapkan Pantek People.
 
-You can find my list of available commands with /help.
+ /help.
 """
 
 HELP_STRINGS = """
