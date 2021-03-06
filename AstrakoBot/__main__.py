@@ -73,16 +73,13 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-HAI KAWAN! GUA *{dispatcher.bot.first_name}*┏┛.
+HAI KAWAN! GUA *{}*┏┛.
 GUA HADIR UNTUK MELENYAPKAN KANG GHOSTING! use /help
-Tambahin gua ke grup lu dan kasih akses admin!
-SIAP MELENYAPKAN KANG GHOSTING!!!
+TAMBAHKAN GUA KE GRUP LU DAN JADIKAN ADMIN PANTEK!
+SIAP MELENYAPKAN PANTEK PEOPLE!!!
 JANGAN LUPA JUGA UNTUK SUPPORT YANG ADA DIBAWAH
-• OWNER CAKEP.       •* [MOLANA](https://t.me/Betterthaanhecan)
-• DEVELOPER CAKEP.   •* [ANGKASA](https://t.me/leoangkasaaa)
-
-*Thanks For MyBaginda :* [KOALA](https://t.me/manusiarakitann)
-*Thanks For           :* [ASTRAKO](https://t.me/AstrakoBotSupport)
+• OWNER CAKEP.       •* [MOLANA](https://t.me/Betterthaanhecan)*
+• DEVELOPER CAKEP.   •* [ANGKASA](https://t.me/leoangkasaaa)*
 Mau tambahkan gua ke grup? Klik LINK dibawah!
 """
 
