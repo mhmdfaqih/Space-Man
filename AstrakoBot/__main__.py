@@ -78,8 +78,8 @@ GUA HADIR UNTUK MELENYAPKAN KANG GHOSTING! use /help
 TAMBAHKAN GUA KE GRUP LU DAN JADIKAN ADMIN PANTEK!
 SIAP MELENYAPKAN PANTEK PEOPLE!!!
 JANGAN LUPA JUGA UNTUK SUPPORT YANG ADA DIBAWAH
-• OWNER CAKEP.       •* [MOLANA](https://t.me/Betterthaanhecan)*
-• DEVELOPER CAKEP.   •* [ANGKASA](https://t.me/leoangkasaaa)*
+• OWNER CAKEP.       • [MOLANA](https://t.me/Betterthaanhecan)
+• DEVELOPER CAKEP.   • [ANGKASA](https://t.me/leoangkasaaa)
 Mau tambahkan gua ke grup? Klik LINK dibawah!
 """
 
