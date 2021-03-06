@@ -103,7 +103,7 @@ def ban(update: Update, context: CallbackContext) -> str:
 
         # bot.send_sticker(chat.id, BAN_STICKER)  # banhammer marie sticker
         reply = (
-            f"<code>❕</code><b>Ban Event</b>\n"
+            f"<code>😡</code><b>PANTEK KAU! TERBANNED</b>\n"
             f"<code> </code><b>•  User:</b> {mention_html(member.user.id, html.escape(member.user.first_name))}"
         )
         if reason:
@@ -332,7 +332,7 @@ def unban(update: Update, context: CallbackContext) -> str:
         return log_message
 
     chat.unban_member(user_id)
-    message.reply_text("Yep, this user can join!")
+    message.reply_text("PANTEK PEOPLE TERMAAFKAN ANJENG!")
 
     log = (
         f"<b>{html.escape(chat.title)}:</b>\n"
