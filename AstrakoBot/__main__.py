@@ -73,14 +73,21 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-┗┓Hai Pantek {}, Nama Gua {}┏┛.
-Gua Hadir Untuk Melenyapkan Pantek People.
+HAI KAWAN! GUA *{dispatcher.bot.first_name}*┏┛.
+GUA HADIR UNTUK MELENYAPKAN KANG GHOSTING! use /help
+Tambahin gua ke grup lu dan kasih akses admin!
+SIAP MELENYAPKAN KANG GHOSTING!!!
+JANGAN LUPA JUGA UNTUK SUPPORT YANG ADA DIBAWAH
+• OWNER CAKEP.       •* [MOLANA](https://t.me/Betterthaanhecan)
+• DEVELOPER CAKEP.   •* [ANGKASA](https://t.me/leoangkasaaa)
 
- /help.
+*Thanks For MyBaginda :* [KOALA](https://t.me/manusiarakitann)
+*Thanks For           :* [ASTRAKO](https://t.me/AstrakoBotSupport)
+Mau tambahkan gua ke grup? Klik LINK dibawah!
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
+Hey Pantek! Nama Gua *{}*.
 I'm a modular group management bot and help admins manage their groups. Have a look at the following for an idea of some of \
 the things I can help you with.
 
@@ -100,7 +107,7 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-ASTRAKOBOT_IMG = "https://i.imgur.com/1oah5E2.jpg"
+ASTRAKOBOT_IMG = "https://telegra.ph/file/31d35b84afd93b454e35f.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 AstrakoBot is hosted on its own server and doesn't require any donations as of now but \
@@ -222,7 +229,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add AstrakoBot to your group",
+                                text="Add AthayaBot to your group",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -231,7 +238,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Support Group",
-                                url=f"https://t.me/AstrakoBotSupport",
+                                url=f"https://t.me/freaknout",
                             ),
                         ],
                         [
@@ -243,7 +250,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Source code",
-                                url="https://github.com/Astrako/AstrakoBot",
+                                url="https://github.com/AngkasaBot/Spaceebot",
                             )
                         ],
                     ]
