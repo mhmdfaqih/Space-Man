@@ -58,14 +58,14 @@ def no_longer_afk(update: Update, context: CallbackContext):
         firstname = update.effective_user.first_name
         try:
             options = [
-                "{} is here!",
-                "{} is back!",
-                "{} is now in the chat!",
-                "{} is awake!",
-                "{} is back online!",
-                "{} is finally here!",
-                "Welcome back! {}",
-                "Where is {}?\nIn the chat!",
+                "{} pasti dari anon, cari pap tt!",
+                "{} gausa balik pantek!",
+                "{} ga penting lu pantek gausa balik!",
+                "{} dih pasti abis bucin!",
+                "{} baru balik anjing!",
+                "{} pasti abis ngejamet si pantek!",
+                "WB jamet pantek! {}",
+                "Dari mana {}?\npasti abis ghosting!",
             ]
             chosen_option = random.choice(options)
             update.effective_message.reply_text(chosen_option.format(firstname))
