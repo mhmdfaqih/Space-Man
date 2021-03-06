@@ -73,13 +73,11 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-HAI KAWAN! GUA *{}*┏┛.
-GUA HADIR UNTUK MELENYAPKAN KANG GHOSTING! use /help
+HAI SOBAT PANTEK! GUA *{}*.
+GUA HADIR UNTUK MELENYAPKAN PANTEK PEOPLE! use /help
 TAMBAHKAN GUA KE GRUP LU DAN JADIKAN ADMIN PANTEK!
 SIAP MELENYAPKAN PANTEK PEOPLE!!!
 JANGAN LUPA JUGA UNTUK SUPPORT YANG ADA DIBAWAH
-• OWNER CAKEP.       • [MOLANA](https://t.me/Betterthaanhecan)
-• DEVELOPER CAKEP.   • [ANGKASA](https://t.me/leoangkasaaa)
 Mau tambahkan gua ke grup? Klik LINK dibawah!
 """
 
@@ -234,19 +232,19 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Support Group",
-                                url=f"https://t.me/freaknout",
+                                text="CH OWNER CAKEUP",
+                                url=f"https://t.me/ruangpublikk",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Getting started guide",
-                                url="https://t.me/OnePunchUpdates/29",
+                                text="CH DEV CAKEUP",
+                                url="https://t.me/storyangkasa",
                             )
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Source code",
+                                text="Source",
                                 url="https://github.com/AngkasaBot/Spaceebot",
                             )
                         ],
