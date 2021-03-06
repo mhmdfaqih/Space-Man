@@ -9,7 +9,7 @@ Originally a SaitamaRobot fork, AstrakoBot evolved further and was built to be m
 
 Can be found on telegram as [Angkasa](https://t.me/leoangkasaaa).
 
-Support channel [Story Leo](https://t.me/storyangkasa), where you can ask for help about [Molana](https://t.me/Betterthaanhecan), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+Support channel [StoryLeo](https://t.me/storyangkasa), where you can ask for help about [Molana](https://t.me/Betterthaanhecan), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 Name Bot as at [Athaya](https://t.me/athaya13bot) 
 
