@@ -139,7 +139,7 @@ def unmute(update: Update, context: CallbackContext) -> str:
                 pass
             bot.sendMessage(
                 chat.id,
-                f"Lain kali jangan caper tolol <b>{html.escape(member.user.first_name)}</b> to text!",
+                f"Lain kali jangan caper tolol <b>{html.escape(member.user.first_name)}</b> TELASO ANJENG!",
                 parse_mode=ParseMode.HTML,
             )
             return (
@@ -213,12 +213,12 @@ def temp_mute(update: Update, context: CallbackContext) -> str:
             )
             bot.sendMessage(
                 chat.id,
-                f"Muted <b>{html.escape(member.user.first_name)}</b> for {time_val}!",
+                f"DIEM BENTAR YA PANTEK!<b>{html.escape(member.user.first_name)}</b>. ABIS {time_val} GAUSA CAPER NGENTOD!",
                 parse_mode=ParseMode.HTML,
             )
             return log
         else:
-            message.reply_text("This user is already muted.")
+            message.reply_text("SI TELASO UDA DIEM TOLOL!.")
 
     except BadRequest as excp:
         if excp.message == "Reply message not found":
