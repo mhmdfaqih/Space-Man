@@ -73,7 +73,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-HALLO SOBAT PANTEK{}! NAMA GUA {}! 
+HALLO SOBAT PANTEK {}! NAMA GUA {}! 
 GUA HADIR UNTUK MELENYAPKAN PANTEK PEOPLE!.
 
 UNDANG GUA KEGRUP KALIAN DAN JADIKAN ADMIN!
@@ -84,6 +84,7 @@ JANGAN LUPA UNTUK SUPPORT CHANNEL @storyangkasa @ruangpublikk
 HELP_STRINGS = """
 Hey Pantek! Gua *{}*.
 GUA PUNYA BANYAK MODULE NIH, COBA LIAT KEBAWAH ADA PANDUANNYA KAN? NAH COBAIN AJA YA.
+KALO GAK NGERTI BISA PM KE @leoangkasaaa @Betterthaanhecan
 
 *Main* commands available:
  • /help: PM's you this message.
