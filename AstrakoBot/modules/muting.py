@@ -36,7 +36,7 @@ def check_user(user_id: int, bot: Bot, chat: Chat) -> Optional[str]:
             raise
 
     if user_id == bot.id:
-        reply = "I'm not gonna MUTE myself, How high are you?"
+        reply = "LU PUNYA MASALAH APA SIH TOLOL MAU MUTE GUA?"
         return reply
 
     if is_user_admin(chat, user_id, member):
@@ -108,7 +108,7 @@ def unmute(update: Update, context: CallbackContext) -> str:
     user_id = extract_user(message, args)
     if not user_id:
         message.reply_text(
-            "You'll need to either give me a username to unmute, or reply to someone to be unmuted."
+            "HEH TELASO! REPLY PESAN ATAU PAKE USERNAME TOLOL!."
         )
         return ""
 
@@ -139,7 +139,7 @@ def unmute(update: Update, context: CallbackContext) -> str:
                 pass
             bot.sendMessage(
                 chat.id,
-                f"Lain kali jangan caper tolol <b>{html.escape(member.user.first_name)}</b> TELASO ANJENG!",
+                f"Lain kali jangan caper tolol <b>{html.escape(member.user.first_name)}</b> LU JELEK TELASO!",
                 parse_mode=ParseMode.HTML,
             )
             return (
