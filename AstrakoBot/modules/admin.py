@@ -86,14 +86,14 @@ def promote(update: Update, context: CallbackContext) -> str:
         )
     except BadRequest as err:
         if err.message == "User_not_mutual_contact":
-            message.reply_text("I can't promote someone who isn't in the group.")
+            message.reply_text("Tidak Dapat Promote Siapapun Di Grup Ini.")
         else:
             message.reply_text("An error occured while promoting.")
         return
 
     bot.sendMessage(
         chat.id,
-        f"Sucessfully promoted <b>{user_member.user.first_name or user_id}</b>!",
+        f"<b>{user_member.user.first_name or user_id}</b> Sukses Jadi Babu Grup!",
         parse_mode=ParseMode.HTML,
     )
 
@@ -161,7 +161,7 @@ def demote(update: Update, context: CallbackContext) -> str:
 
         bot.sendMessage(
             chat.id,
-            f"Sucessfully demoted <b>{user_member.user.first_name or user_id}</b>!",
+            f"Babu <b>{user_member.user.first_name or user_id}</b> Berhasil Di Pecat!",
             parse_mode=ParseMode.HTML,
         )
 
@@ -377,7 +377,7 @@ def adminlist(update, context):
         )
 
     administrators = bot.getChatAdministrators(chat_id)
-    text = "Admins in <b>{}</b>:".format(html.escape(update.effective_chat.title))
+    text = "Babu Grup di <b>{}</b>:".format(html.escape(update.effective_chat.title))
 
     bot_admin_list = []
 
@@ -387,7 +387,7 @@ def adminlist(update, context):
         custom_title = admin.custom_title
 
         if user.first_name == "":
-            name = "☠ Deleted Account"
+            name = "☠ Akun Depresi"
         else:
             name = "{}".format(
                 mention_html(
@@ -403,13 +403,13 @@ def adminlist(update, context):
         # if user.username:
         #    name = escape_markdown("@" + user.username)
         if status == "creator":
-            text += "\n 👑 Creator:"
+            text += "\n 👑 Pemimpin Babu:"
             text += "\n<code> • </code>{}\n".format(name)
 
             if custom_title:
                 text += f"<code> ┗━ {html.escape(custom_title)}</code>\n"
 
-    text += "\n🔱 Admins:"
+    text += "\n🔱 Babu:"
 
     custom_admin_list = {}
     normal_admin_list = []
@@ -420,7 +420,7 @@ def adminlist(update, context):
         custom_title = admin.custom_title
 
         if user.first_name == "":
-            name = "☠ Deleted Account"
+            name = "☠ Babu Depresi"
         else:
             name = "{}".format(
                 mention_html(
@@ -455,7 +455,7 @@ def adminlist(update, context):
             text += "\n<code> • </code>{}".format(admin)
         text += "\n"
 
-    text += "\n🤖 Bots:"
+    text += "\n🤖 Pembantu:"
     for each_bot in bot_admin_list:
         text += "\n<code> • </code>{}".format(each_bot)
 
@@ -466,7 +466,7 @@ def adminlist(update, context):
 
 
 __help__ = """
- • `/admins`*:* list of admins in the chat
+ • `/admins`*:* list babu grup
 
 *Admins only:*
  • `/pin`*:* silently pins the message replied to - add `'loud'` or `'notify'` to give notifs to users
