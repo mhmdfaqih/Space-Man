@@ -73,7 +73,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-HALLO SOBAT PANTEK {}! NAMA GUA {}! 
+HALLO SOBAT {}! GUA {}! 
 GUA HADIR UNTUK MELENYAPKAN PANTEK PEOPLE!.
 
 IJIN DULU SOBAT PANTEK KALO MAU PAKAI!
@@ -86,12 +86,12 @@ JANGAN LUPA UNTUK SUPPORT CHANNEL @storyangkasa @ruangpublikk
 HELP_STRINGS = """
 Hey Pantek! Gua *{}*.
 GUA PUNYA BANYAK MODULE NIH, COBA LIAT KEBAWAH ADA PANDUANNYA KAN? NAH COBAIN AJA YA.
-KALO GAK NGERTI BISA PM KE @leoangkasaaa @Betterthaanhecan
+KALO TIDAK PAHAM BISA PM KE @leoangkasaaa @Betterthaanhecan
 
 *Main* commands available:
  • /help: PM's you this message.
- • /help <module name>: PM's you info about that module.
- • /donate: information on how to donate!
+ • /help <module name>: untuk info modul.
+ • /donate: informasi cara donasi!
  • /settings:
    • in PM: will send you your settings for all supported modules.
    • in a group: will redirect you to pm, with all that chat's settings.
@@ -226,7 +226,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add AstrakoBot to your group",
+                                text="Tambahkan Bot Ke Grup",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -246,7 +246,7 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Source code",
+                                text="Base Bot",
                                 url="https://github.com/Astrako/AstrakoBot",
                             )
                         ],
