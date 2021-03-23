@@ -59,7 +59,7 @@ def no_longer_afk(update: Update, context: CallbackContext):
         try:
             options = [
                 "{} pasti dari anon, cari pap tt!",
-                "{} gausa balik pantek!",
+                "{} gausa balik, ga penting asu!",
                 "{} ga penting lu pantek gausa balik!",
                 "{} dih pasti abis bucin!",
                 "{} Anak Telaso balik anjing!",
@@ -129,10 +129,10 @@ def check_afk(update, context, user_id, fst_name, userc_id):
         if int(userc_id) == int(user_id):
             return
         if not user.reason:
-            res = "{} lagi depresi asu!".format(fst_name)
+            res = "{} DEPRESI DULU!".format(fst_name)
             update.effective_message.reply_text(res)
         else:
-            res = "{} DEPRESI ASU! KARENA.\nReason: <code>{}</code>".format(
+            res = "{} DEPRESI! KARENA.\nReason: <code>{}</code>".format(
                 html.escape(fst_name), html.escape(user.reason)
             )
             update.effective_message.reply_text(res, parse_mode="html")
