@@ -261,7 +261,7 @@ def punch(update: Update, context: CallbackContext) -> str:
         # bot.send_sticker(chat.id, BAN_STICKER)  # banhammer marie sticker
         bot.sendMessage(
             chat.id,
-            f"Keluar Kau PANTEK PEOPLE! {mention_html(member.user.id, html.escape(member.user.first_name))}.",
+            f"Keluar Kau Bangsat! {mention_html(member.user.id, html.escape(member.user.first_name))}.",
             parse_mode=ParseMode.HTML,
         )
         log = (
@@ -332,7 +332,7 @@ def unban(update: Update, context: CallbackContext) -> str:
         return log_message
 
     chat.unban_member(user_id)
-    message.reply_text("PANTEK PEOPLE TERMAAFKAN ANJENG!")
+    message.reply_text("SI ANJENGG TERMAAFKAN BANGSAT!")
 
     log = (
         f"<b>{html.escape(chat.title)}:</b>\n"
