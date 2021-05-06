@@ -58,12 +58,12 @@ def no_longer_afk(update: Update, context: CallbackContext):
         firstname = update.effective_user.first_name
         try:
             options = [
-                "{} pasti dari anon, cari pap tt!",
-                "{} gausa balik, ga penting asu!",
-                "{} ga penting lu pantek gausa balik!",
+                "{} onichan bakaaaa><!",
+                "{} yameteeeeeeeee>< onichan abis coli!",
+                "{} onichan mau akioshi temennin?",
                 "{} dih pasti abis bucin!",
-                "{} Anak Telaso balik anjing!",
-                "{} pasti abis ngejamet si pantek!",
+                "{} onichan dari mana? pasti jadi jamet lagi!",
+                "{} farming trossssssss!",
                 "WB jamet pantek! {}",
                 "Dari mana {}?\npasti abis ghosting!",
             ]
